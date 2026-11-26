@@ -7,6 +7,6 @@ export class ProcessorController {
 
   @Get('health')
   health() {
-    return { status: 'ok', service: 'ingestor', uptime: process.uptime() };
+    return { status: 'ok', service: 'processor', uptime: process.uptime() };
   }
 }

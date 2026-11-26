@@ -7,6 +7,6 @@ export class ApiController {
 
   @Get('health')
   health() {
-    return { status: 'ok', service: 'ingestor', uptime: process.uptime() };
+    return { status: 'ok', service: 'api', uptime: process.uptime() };
   }
 }
